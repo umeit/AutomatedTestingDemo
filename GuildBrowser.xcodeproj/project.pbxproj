@@ -19,6 +19,7 @@
 		03795AD417D882F700D786D6 /* character.json in Resources */ = {isa = PBXBuildFile; fileRef = 03795AD217D882F700D786D6 /* character.json */; };
 		03795AD517D882F700D786D6 /* guild.json in Resources */ = {isa = PBXBuildFile; fileRef = 03795AD317D882F700D786D6 /* guild.json */; };
 		03795AD817D8835800D786D6 /* CharacterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03795AD717D8835800D786D6 /* CharacterTests.m */; };
+		03C1431417D982D800A4EAF3 /* reports.xml in Resources */ = {isa = PBXBuildFile; fileRef = 03C1431317D982D800A4EAF3 /* reports.xml */; };
 		CB9FDC4015E9872D00B3713E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC3F15E9872D00B3713E /* UIKit.framework */; };
 		CB9FDC4215E9872D00B3713E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4115E9872D00B3713E /* Foundation.framework */; };
 		CB9FDC4415E9872D00B3713E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4315E9872D00B3713E /* CoreGraphics.framework */; };
@@ -102,6 +103,7 @@
 		03795AD317D882F700D786D6 /* guild.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = guild.json; sourceTree = "<group>"; };
 		03795AD617D8835800D786D6 /* CharacterTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterTests.h; sourceTree = "<group>"; };
 		03795AD717D8835800D786D6 /* CharacterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterTests.m; sourceTree = "<group>"; };
+		03C1431317D982D800A4EAF3 /* reports.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = reports.xml; sourceTree = "<group>"; };
 		CB9FDC3B15E9872D00B3713E /* GuildBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuildBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB9FDC3F15E9872D00B3713E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CB9FDC4115E9872D00B3713E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -221,6 +223,7 @@
 		03795ABB17D86C1500D786D6 /* GuildBrowserLogicTests */ = {
 			isa = PBXGroup;
 			children = (
+				03C1431217D982A800A4EAF3 /* test-reports */,
 				03795AD117D882F700D786D6 /* testdata */,
 				03795AC817D8766900D786D6 /* WowUtilsTests.h */,
 				03795AC917D8766900D786D6 /* WowUtilsTests.m */,
@@ -248,6 +251,14 @@
 				03795AD317D882F700D786D6 /* guild.json */,
 			);
 			path = testdata;
+			sourceTree = "<group>";
+		};
+		03C1431217D982A800A4EAF3 /* test-reports */ = {
+			isa = PBXGroup;
+			children = (
+				03C1431317D982D800A4EAF3 /* reports.xml */,
+			);
+			path = "test-reports";
 			sourceTree = "<group>";
 		};
 		CB9FDC3015E9872D00B3713E = {
@@ -528,6 +539,7 @@
 				03795AC017D86C1500D786D6 /* InfoPlist.strings in Resources */,
 				03795AD417D882F700D786D6 /* character.json in Resources */,
 				03795AD517D882F700D786D6 /* guild.json in Resources */,
+				03C1431417D982D800A4EAF3 /* reports.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

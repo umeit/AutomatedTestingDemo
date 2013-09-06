@@ -39,5 +39,6 @@
     Character *testGuy1 = [[Character alloc] initWithCharacterDetailData:_characterDetailJson];
     STAssertNotNil(testGuy1, @"Could not create character from detail json");
     Character *testGuy2 = [[Character alloc] initWithCharacterDetailData:nil];
-    STAssertNotNil(testGuy2, @"Could not create character from nil data");}
+    STAssertNotNil(testGuy2, @"Could not create character from nil data");
+}
 @end
